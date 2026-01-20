@@ -73,7 +73,6 @@ class People:
         self.persons_.append( Person( first="Y.",    family="Ishigaki",   affiliations=["NWU", "RIKEN"    ] ) )
         self.persons_.append( Person( first="T.",    family="Kikuchi",    affiliations=["Rikkyo", "RIKEN" ] ) )
         self.persons_.append( Person( first="R.",    family="Koike",      affiliations=["Kyoto", "RIKEN"  ] ) )
-        self.persons_.append( Person( first="T.",    family="Kondo",      affiliations=["TIRI"            ] ) )
         self.persons_.append( Person( first="C.~M.", family="Kuo",        affiliations=["NCU"             ] ) )
         self.persons_.append( Person( first="R.~S.", family="Lu",         affiliations=["NTU"             ] ) )
         self.persons_.append( Person( first="N.",    family="Morimoto",   affiliations=["NWU", "RIKEN"    ] ) )
@@ -103,7 +102,6 @@ class People:
             "BNL": "Physics Department, Brookhaven National Laboratory",
             "RIKEN": "RIKEN Nishina Center",
             "Kyoto": "Department of Physics, Kyoto University",
-            "TIRI": "Information Systems Technology Division, Tokyo Metropolitan Industrial Technology Research Institute"
         }
         self.sorted_affiliations_ = []
         
